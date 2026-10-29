@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* The two faces the template asks for. Change these and the whole page
+   re-types itself — nothing in App.jsx hardcodes a font name. */
+:root {
+  --font-tpl-body: "Inter";
+  --font-tpl-serif: "Fraunces";
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
